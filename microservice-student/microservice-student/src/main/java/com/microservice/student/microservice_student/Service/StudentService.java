@@ -3,8 +3,7 @@ package com.microservice.student.microservice_student.Service;
 import java.util.List;
 import com.microservice.student.microservice_student.Entities.Student;
 
-
-public interface IStudentSErvice {
+public interface StudentService{
 
     List<Student> findAll();
 

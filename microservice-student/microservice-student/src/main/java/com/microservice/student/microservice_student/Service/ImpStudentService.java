@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.microservice.student.microservice_student.Entities.Student;
 import com.microservice.student.microservice_student.persistence.StudentRepository;
 
-public class ImpStudentService implements IStudentSErvice {
+public class ImpStudentService implements StudentService {
 
 
     @Autowired
