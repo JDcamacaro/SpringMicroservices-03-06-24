@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "eureka.intance.hostname",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.intance.hostname'"
+  },
+  {
+    "name": "eureka.client.register-with-eureka",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.register-with-eureka'"
+  }
+]}

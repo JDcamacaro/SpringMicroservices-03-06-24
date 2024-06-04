@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviceEurekaApplication<microservice-eureka>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservice.eureka.microservice_eureka.MicroserviceEurekaApplication",
+            "projectName": "microservice-eureka",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviceStudentApplication<microservice-student>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservice.student.microservice_student.MicroserviceStudentApplication",
+            "projectName": "microservice-student",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviceGatewayApplication<microservice-gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservice.gateway.microservice_gateway.MicroserviceGatewayApplication",
+            "projectName": "microservice-gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviceCourseApplication<microservice-course>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservice.course.microservice_course.MicroserviceCourseApplication",
+            "projectName": "microservice-course",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
