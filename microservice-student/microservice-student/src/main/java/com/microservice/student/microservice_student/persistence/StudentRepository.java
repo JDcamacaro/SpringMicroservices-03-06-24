@@ -11,8 +11,8 @@ import com.microservice.student.microservice_student.Entities.Student;
 @Repository
 public interface StudentRepository extends CrudRepository<Student, Long>{
 
-    @Query("SELECT s FROM Student s WHERE s.course_id = :idCourse")
-    List<Student> findAllCourse(Long Course);
+/*     @Query("SELECT s FROM Student s WHERE s.course_id = :idCourse")
+    List<Student> findAllCourse(Long Course); */
 
 /*     List<Student> findAllByCourse(Long Course); */
 

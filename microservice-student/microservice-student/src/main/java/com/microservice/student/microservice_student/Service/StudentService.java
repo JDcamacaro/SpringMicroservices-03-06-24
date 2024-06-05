@@ -1,7 +1,9 @@
 package com.microservice.student.microservice_student.Service;
 
 import java.util.List;
+
 import com.microservice.student.microservice_student.Entities.Student;
+
 
 public interface StudentService{
 
@@ -11,6 +13,6 @@ public interface StudentService{
 
     void save(Student student);
 
-    List<Student> finfByIdCourse(Long idCourse);
+   /*  List<Student> finfByIdCourse(Long idCourse); */
 
 }
